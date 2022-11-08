@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="container flex justify-between items-center mx-auto">
                 <a
                     rel="noopener noreferrer"
-                    href="#"
+                    href=""
                     aria-label="Back to homepage"
                     className="flex items-center p-2"
                 >
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <li className="flex">
                         <a
                             rel="noopener noreferrer"
-                            href="#"
+                            href="/"
                             className="flex items-center px-5 py-1 rounded-md justify-center dark:border-transparent dark:text-violet-400 dark:border-violet-400 font-bold hover:bg-blue-100 hover:text-blue-500"
                         >
                             Rent
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <li className="flex">
                         <a
                             rel="noopener noreferrer"
-                            href="#"
+                            href="/"
                             className="flex items-center px-5 py-1 rounded-md dark:border-transparent hover:bg-blue-100 hover:text-blue-500 font-bold"
                         >
                             Buy
@@ -42,7 +42,7 @@ const Navbar = () => {
                     <li className="flex">
                         <a
                             rel="noopener noreferrer"
-                            href="#"
+                            href="/"
                             className="flex items-center dark:border-transparent  hover:bg-blue-100 hover:text-blue-500 font-bold px-5 py-1 rounded-md"
                         >
                             Sell
@@ -51,16 +51,16 @@ const Navbar = () => {
                     <li className="flex">
                         <a
                             rel="noopener noreferrer"
-                            href="#"
+                            href="/"
                             className="flex items-center dark:border-transparent hover:bg-blue-100 hover:text-blue-500 font-bold px-5 py-1 rounded-md"
                         >
-                            Manage Property
+                            Manage Property 
                         </a>
                     </li>
                     <li className="flex">
                         <a
                             rel="noopener noreferrer"
-                            href="#"
+                            href="/"
                             className="flex items-center dark:border-transparent hover:bg-blue-100 hover:text-blue-500 font-bold px-5 py-1 rounded-md"
                         >
                             Resources
