@@ -17,7 +17,7 @@ const Filter = () => {
                     />
                     <button
                         type="button"
-                        class="px-8 py-3 font-semibold rounded bg-blue-500 text-white dark:bg-gray-100 dark:text-gray-800"
+                        className="px-8 py-3 font-semibold rounded bg-blue-500 text-white dark:bg-gray-100 dark:text-gray-800"
                     >
                         Search
                     </button>
@@ -49,7 +49,7 @@ const Filter = () => {
                 </div>
                 <button
                         type="button"
-                        class="px-8 py-3 font-semibold rounded bg-blue-500 text-white dark:bg-gray-100 dark:text-gray-800"
+                        className="px-8 py-3 font-semibold rounded bg-blue-500 text-white dark:bg-gray-100 dark:text-gray-800"
                     >
                         Search
                     </button>
