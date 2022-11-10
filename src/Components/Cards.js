@@ -1,4 +1,7 @@
 import React from "react";
+import { IoHeartCircleOutline } from "react-icons/io5";
+import {FaBed, FaBath} from "react-icons/fa";
+import {FcAreaChart} from "react-icons/fc";
 
 const Cards = (props) => {
     return (
@@ -24,22 +27,28 @@ const Cards = (props) => {
                                 <img src={propertyImage} />
                             </figure>
                             <div className="card-body p-5">
-                                <p className="text-blue-500 font-semibold text-lg">
-                                    $ {price} /month
-                                </p>
+                                <div className="flex items-center justify-between">
+                                    <p className="text-blue-500 font-semibold text-lg">
+                                        $ {price} /month
+                                    </p>
+                                    <IoHeartCircleOutline />
+                                </div>
                                 <h2 className="card-title font-bold text-xl">
                                     {propertyName}
                                 </h2>
                                 <p>{propertyAddress}</p>
                                 <hr />
                                 <div className="flex items-center justify-between">
-                                    <div>
+                                    <div className="flex item-center justify-center">
+                                        <FaBed />
                                         <p>{bedroom} Beds</p>
                                     </div>
-                                    <div>
+                                    <div className="flex item-center justify-center">
+                                        <FaBath />
                                         <p>{bathroom} Bathrooms</p>
                                     </div>
-                                    <div>
+                                    <div className="flex item-center justify-center">
+                                        <FcAreaChart />
                                         <p>{propertyArea} m2</p>
                                     </div>
                                 </div>

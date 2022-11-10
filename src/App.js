@@ -6,11 +6,24 @@ import Cards from "./Components/Cards";
 import PropertyData from "./Components/PropertyData";
 
 function App() {
-  const [items, setItems] = useState(PropertyData);
+    const [items, setItems] = useState(PropertyData);
+    const requiredCards = (recievedData) => {
+        console.log(recievedData);
+        // let filteredData = PropertyData.filter(element => {
+        //     return element.price >= recievedData.propertyPrice;
+        // })
+
+
+
+        // I am leaving this projects here because my laptop is not working properly
+        
+
+        setItems(filteredData)
+    };
     return (
         <>
             <Navbar />
-            <Filter />
+            <Filter requiredCards={requiredCards} />
             <Cards items={items} />
         </>
     );

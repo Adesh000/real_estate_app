@@ -4,7 +4,7 @@ const PropertyData = [
 		price: 600,
 		propertyImage: 'https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__480.jpg',
 		propertyName: 'Palm Harbor',
-		propertyAddress: 'Jhansi, UP, India',
+		propertyAddress: 'UP, India',
 		bedroom: 2,
 		bathroom: 3,
 		propertyArea: '5x7'
@@ -14,7 +14,7 @@ const PropertyData = [
 		price: 300,
 		propertyImage: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600',
 		propertyName: 'Space moon City',
-		propertyAddress: 'Jhansi, UP, India',
+		propertyAddress: 'UP, India',
 		bedroom: '3',
 		bathroom: '4',
 		propertyArea: '6x7'
@@ -24,7 +24,7 @@ const PropertyData = [
 		price: 700,
 		propertyImage: 'https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972__340.jpg',
 		propertyName: 'Nayak House',
-		propertyAddress: 'Katera, Jhansi, UP, India',
+		propertyAddress: 'UP, India',
 		bedroom: '3',
 		bathroom: '3',
 		propertyArea: '7x6'
@@ -34,7 +34,7 @@ const PropertyData = [
 		price: 1000,
 		propertyImage: 'https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg',
 		propertyName: 'Galaxy Apartment',
-		propertyAddress: 'Niwari, MP, India',
+		propertyAddress: 'MP, India',
 		bedroom: '4',
 		bathroom: '3',
 		propertyArea: '10x6'
@@ -44,7 +44,7 @@ const PropertyData = [
 		price: 1700,
 		propertyImage: 'https://cdn.pixabay.com/photo/2016/06/24/11/48/architecture-1477101__340.jpg',
 		propertyName: 'Brigade Gardenia',
-		propertyAddress: 'Orchha, MP, India',
+		propertyAddress: 'MP, India',
 		bedroom: '5',
 		bathroom: '4',
 		propertyArea: '7x10'
@@ -54,7 +54,7 @@ const PropertyData = [
 		price: 100,
 		propertyImage: 'https://cdn.pixabay.com/photo/2016/06/24/11/46/architecture-1477099__340.jpg',
 		propertyName: 'Garadi Appartment',
-		propertyAddress: 'Niwari, MP, India',
+		propertyAddress: 'MP, India',
 		bedroom: '2',
 		bathroom: '1',
 		propertyArea: '3x6'
